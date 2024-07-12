@@ -12,7 +12,7 @@ public class Data_type
 
         char c = 'J'; // 16 bits ----- UNICODE (2 BYTES)
 
-        boolean b = true; // not specified defends upon JVM
+        boolean b = true; // not specified defends upon JVM  DEFAULT ------------> SET to FALSE 
 
         // Literal format 
 
