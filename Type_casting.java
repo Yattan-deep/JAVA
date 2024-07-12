@@ -29,7 +29,17 @@ public class Type_casting {
         byte b2 = 100;
 
         int type_permotion = a2 * b2 ;
-
+        
         // when range of result if bigger than used operators 
+
+
+
+        // *********************** LOGICAL OPERATORs **************************
+        int a3 = 3 ;
+        int b3 = 6 ; 
+        System.out.println(~a3 & b3);
+        System.out.println(a3 + " " + ~a3 + " " + b3 );
+
+
     }
 }

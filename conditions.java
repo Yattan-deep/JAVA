@@ -3,7 +3,6 @@ public class conditions {
         // if else if (SAME AS CPP)
 
         // check legal to drive if 18 - 59 only otherwise not otherwise give mesage acc.
-
         int age = 40;
 
         if( age > 17 && age < 60 ) System.out.println("legal to drive ");
@@ -12,10 +11,16 @@ public class conditions {
 
         else System.out.println("Tell me where u want to go ");
 
+
+        // BUT BUT Be carefull
+
+        // compiler error BOOLEAN need to be there in if -- JAVA 
+        // if( 1 ) System.out.println("Output with 1 only ");
+
         // SWITCH 
         // TELL DAY acording to number 
         
-        int n = 100; // default 
+        int n = 7; // default 
 
         switch ( n ) {
             case 1:
@@ -41,7 +46,7 @@ public class conditions {
                 break;
             default:
                 System.out.println("Give correct input");
-                break;
+                // NO NEED for break ... in ... default ...
         }
     }
 }

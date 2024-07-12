@@ -1,0 +1,32 @@
+In programming, particularly in the context of loops, entry-controlled and exit-controlled refer to the points at which the loop condition is evaluated.
+
+Entry-Controlled Loops
+Definition: The loop condition is evaluated before the execution of the loop body.
+Example: for loops and while loops are entry-controlled.
+Behavior: If the condition is false at the start, the loop body will not execute at all.
+Example in Java:
+
+java
+Copy code
+int i = 0;
+while (i < 5) { // Condition checked before entering the loop
+    System.out.println(i);
+    i++;
+}
+Exit-Controlled Loops
+Definition: The loop condition is evaluated after the execution of the loop body.
+Example: do-while loops are exit-controlled.
+Behavior: The loop body executes at least once, regardless of whether the condition is true or false.
+Example in Java:
+
+java
+Copy code
+int i = 0;
+do {
+    System.out.println(i); // Body executes first
+    i++;
+} while (i < 5); // Condition checked after executing the body
+Summary
+Entry-Controlled Loops: Condition checked before loop body (e.g., for, while).
+Exit-Controlled Loops: Condition checked after loop body (e.g., do-while).
+This distinction affects how many times the loop executes based on the initial conditions.
