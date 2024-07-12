@@ -19,7 +19,17 @@ public class Type_casting {
         int bigger_num = 256 ;
         byte smaller_number = (byte)bigger_num; 
 
+
         System.out.println(smaller_number); 
 
+
+        // type permotion 
+
+        byte a2 = 10;
+        byte b2 = 100;
+
+        int type_permotion = a2 * b2 ;
+
+        // when range of result if bigger than used operators 
     }
 }
