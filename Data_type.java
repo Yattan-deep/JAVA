@@ -13,5 +13,17 @@ public class Data_type
         char c = 'J'; // 16 bits ----- UNICODE (2 BYTES)
 
         boolean b = true; // not specified defends upon JVM
+
+        // Literal format 
+
+        // easy to read zeros 
+
+        int easy_read = 10_00_000_00;
+        System.out.println(easy_read +  " <-- this is easy to read we can put _ between zeros,");
+
+        // we can increment CHAR values also
+        char a = 'a';
+        a++;
+        System.out.println(a + " <-- it should show a in out a++ == b,");
     }
 }
