@@ -1,0 +1,44 @@
+In Java, access modifiers control the visibility of classes, methods, and variables. There are four main access modifiers:
+
+Public:
+
+Accessible from any other class.
+Use when you want to expose a class or member to all other classes.
+java
+Copy code
+public class MyClass {
+    public int myPublicVar;
+}
+Private:
+
+Accessible only within the class itself.
+Use when you want to restrict access and encapsulate the internal workings of a class.
+java
+Copy code
+public class MyClass {
+    private int myPrivateVar;
+}
+Protected:
+
+Accessible within the same package and by subclasses (even in different packages).
+Use when you want to allow access to subclasses and classes within the same package.
+java
+Copy code
+public class MyClass {
+    protected int myProtectedVar;
+}
+Default (Package-Private):
+
+No modifier is specified, and it's accessible only within classes in the same package.
+Use when you want to restrict access to only classes in the same package.
+java
+Copy code
+class MyClass {
+    int myDefaultVar; // package-private by default
+}
+Summary
+Public: Accessible from anywhere.
+Private: Accessible only within the class.
+Protected: Accessible within the package and by subclasses.
+Default: Accessible only within the package (no modifier).
+Choosing the right access modifier is crucial for encapsulation and maintaining the integrity of your class design.
