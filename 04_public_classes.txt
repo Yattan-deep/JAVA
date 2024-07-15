@@ -1,0 +1,25 @@
+
+
+ONLY 1 class can be public in JAVA file 
+
+Class containing Main function can be deafult-private need not be PUBLIC 
+
+
+A public class in Java has several benefits:
+
+Global Accessibility: 
+A public class can be accessed from any other class in any package. 
+This is useful for libraries or APIs where you want to expose functionality to be used across different applications.
+
+Clear Intent: 
+Declaring a class as public clearly indicates that the class is intended for use outside its defining package. 
+This can help other developers understand how to use your code.
+
+Ease of Integration: 
+Public classes facilitate easier integration with other systems, as they can be instantiated and used without restrictions.
+
+Support for Frameworks: 
+Many frameworks and tools in Java (like Spring, Hibernate, etc.) rely on public classes for functionality, such as reflection and dependency injection.
+
+Better Encapsulation of APIs: 
+When creating public classes, you can define a clear interface that other developers can use without needing to understand the internal workings of the class.
