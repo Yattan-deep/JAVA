@@ -1,4 +1,4 @@
-class A 
+class Encap_A
 {
     private int age; // set to 0 
     private String name; // set to null
@@ -21,7 +21,7 @@ class A
 public class Encapsulation_getter_setter {
     public static void main(String[] args) 
     {
-        A a = new A();
+        Encap_A a = new Encap_A();
         System.out.println(a.getName() +" : "+ a.getAge());
         a.setName("Rahul");
         a.setAge(10);

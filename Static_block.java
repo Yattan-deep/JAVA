@@ -5,7 +5,7 @@
 // TO load class without object we can use forName method in Class class which load class in memory 
 // and then we can use static block to initialize static variable 
 
-class A
+class Static_A
 {
     static int a;
     static
@@ -14,7 +14,7 @@ class A
         a = 10;
     }
 
-    A(int x)
+    Static_A(int x)
     {
         System.out.println("Constructor");
         a += x ;
@@ -23,7 +23,7 @@ class A
 
 // loading class without using OBJ using Class class
 
-class B 
+class Static_B 
 {
     static int a;
 
@@ -41,7 +41,7 @@ public class Static_block
     public static void main(String[] args) {
 
 
-        A obj = new A(200);
+        Static_A obj = new Static_A(200);
         System.out.println("Value of a : " + obj.a);
         
         // Load class without 
