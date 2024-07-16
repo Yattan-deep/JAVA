@@ -27,6 +27,10 @@ class B extends A
     }
     B(int num) { 
         // super(); called by compiler
+        //super(num); // calling parametrize A(num) constructor
+
+        // ? we can't use this and super in same constructor ...
+        this(); // calling B() default constructor 
         System.out.println("calling B int : ");
         this.num = num;
     }  
@@ -39,5 +43,6 @@ public class superthis {
     {
         B obj0 = new B();
         B obj1 = new B(1);
+
     }
 }
