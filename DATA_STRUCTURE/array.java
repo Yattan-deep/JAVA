@@ -78,9 +78,7 @@ public class array {
         arr_obj[2] = s3;
 
         // Enhanced loop
-        
-        String str = "Hello\0World";
-        System.out.println(str); // prints "HelloWorld"
+
 
         for( student it : arr_obj)
             System.out.println(it.rollnum + " " + it.name);
