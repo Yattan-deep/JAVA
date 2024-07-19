@@ -1,11 +1,11 @@
-package Advance;
+package Advance.threads_package;
 
 // learn how we can run thread
 // object can run 
 // ONly classes which are extended with thread class
 // use function start() and this will call run()
 
-class A extends Thread 
+class ThreadA extends Thread 
 {
     public void run() // run is the method class by START() in when called 
     {
@@ -13,7 +13,7 @@ class A extends Thread
     }
 }
 
-class B  extends Thread
+class ThreadB  extends Thread
 {
     public void run()
     {
@@ -23,8 +23,8 @@ class B  extends Thread
 public class thread_intro {
 
     public static void main(String[] args) {
-        A a = new A();
-        B b = new B();
+        ThreadA a = new ThreadA();
+        ThreadB b = new ThreadB();
 
         // to start 
         a.start();
